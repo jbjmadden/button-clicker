@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Dojonary</title>
+</head>
+<body>
+    <div id="container">
+        <div id="navBar">
+            <h1>Dojonary</h1>
+            <input type="text" class="search" placeholder="Search">
+            <button class="login" onclick="login(this)">Login</button>
+        </div>
+        <div id="pageBody">
+            <div id="leftColumn">
+                <div id="defOne">
+                    <div class="entry">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="like" onclick="alert('Ninja was liked')"><b>13 Likes</b></button>
+                    </div>
+                    <p class="definition">A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                <div id="defTwo">
+                    <div class="entry">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="like" onclick="alert('Ninja was liked')"><b>37 Likes</b></button>
+                    </div>
+                    <p class="definition">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+            <div id="rightColumn">
+                <div id="yourSection">
+                    <h2 class="entry"><p>Dojonary is</p> <p>defined by <b>YOU</b></p></h2>
+                    <button class="addDef" onclick="removeButton(this)"><h3>Add Definition</h3></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

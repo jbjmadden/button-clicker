@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#container {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+/* Navbar */
+
+#navBar {
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+#navBar h1 {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#navBar .search{
+    width: 400px; 
+}
+
+#navBar input {
+    border: 3px solid black;
+}
+
+#navBar .login {
+    background-color: lightblue;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    margin-right: 20px;
+}
+
+#pageBody {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Left Side */
+
+#leftColumn {
+    flex: 5;
+    margin-right: 20px;
+}
+
+#leftColumn > div {
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.like {
+    margin-top: 10px;
+    background-color: goldenrod;
+    width: 100px;
+    padding: 5px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.definition {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+/* Right Side */
+
+#rightColumn {
+    flex: 3;
+    margin-bottom: 15px;
+}
+
+#rightColumn > div {
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.addDef {
+    margin-top: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+    padding: 5px;
+    background-color: green;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
